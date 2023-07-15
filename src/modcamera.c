@@ -175,7 +175,7 @@ STATIC bool camera_init_helper(camera_obj_t *camera, size_t n_pos_args, const mp
 }
 
 
-STATIC mp_obj_t camera_init(mp_uint_t n_pos_args, const mp_obj_t *pos_args, mp_map_t *kw_args) {
+STATIC mp_obj_t camera_init(size_t n_pos_args, const mp_obj_t *pos_args, mp_map_t *kw_args) {
     
     camera_obj_t camera_obj;
 
